@@ -3,9 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-
 import PixelBlast from "./components/PixelBlast";
 
 export default function App() {
@@ -38,7 +36,6 @@ export default function App() {
 
       <div className="relative z-10 h-full flex flex-col">
         <Header scrollRef={scrollRef} />
-        <Navbar scrollRef={scrollRef} />
 
         <main
           ref={scrollRef}

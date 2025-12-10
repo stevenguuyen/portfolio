@@ -49,12 +49,12 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="h-screen snap-start flex flex-col justify-between relative z-10 pt-20 overflow-hidden"
+      className="min-h-screen snap-start flex flex-col justify-between relative z-10 py-20 overflow-x-hidden"
     >
       <div className="flex-1 flex items-center justify-center w-full max-w-[1100px] mx-auto px-4">
 
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full h-full max-h-[500px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
 
 
           <motion.div

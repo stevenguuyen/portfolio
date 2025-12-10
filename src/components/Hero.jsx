@@ -22,9 +22,9 @@ export default function Hero() {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ amount: 0.5 }}
-          className="flex justify-center lg:justify-end"
+          className="flex justify-center lg:justify-end order-1 lg:order-none"
         >
-          <div className="relative group w-[350px] h-[350px] lg:w-[450px] lg:h-[450px]">
+          <div className="relative group w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[450px] lg:h-[450px]">
             <div className="w-full h-full rounded-full overflow-hidden border-[6px] border-white/50 bg-white/20 relative z-10 shadow-2xl backdrop-blur-sm">
               <img
                 src={avatarImg}
@@ -41,15 +41,15 @@ export default function Hero() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ amount: 0.5 }}
-          className="flex flex-col items-center lg:items-start"
+          className="flex flex-col items-center lg:items-start order-2 lg:order-none"
         >
           <ParticleCard
             enableTilt={true}
             enableMagnetism={true}
-            className="w-full max-w-[550px] bg-black/40 backdrop-blur-xl border border-white/20 rounded-[20px] p-8 shadow-2xl flex flex-col gap-6 magic-bento-card magic-bento-card--border-glow"
+            className="w-full max-w-[550px] bg-black/40 backdrop-blur-xl border border-white/20 rounded-[20px] p-6 lg:p-8 shadow-2xl flex flex-col gap-6 magic-bento-card magic-bento-card--border-glow"
           >
             <div className="text-center lg:text-left">
-              <h1 className="text-[40px] lg:text-[48px] font-bold leading-tight text-[#c9d1d9] mb-2 drop-shadow-md">
+              <h1 className="text-[32px] sm:text-[40px] lg:text-[48px] font-bold leading-tight text-[#c9d1d9] mb-2 drop-shadow-md">
                 Nguyen Tan Phat
               </h1>
               <div className="text-[20px] font-medium text-[#8b949e]">

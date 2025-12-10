@@ -33,7 +33,7 @@ export default function Projects() {
     <section
       id="projects"
       ref={containerRef}
-      className="bento-section h-screen snap-start flex items-center justify-center relative z-10 pt-20 px-4 overflow-hidden"
+      className="bento-section min-h-screen snap-start flex items-center justify-center relative z-10 py-20 px-4 overflow-x-hidden"
     >
       <GlobalSpotlight gridRef={containerRef} />
 
